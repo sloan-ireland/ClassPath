@@ -1,0 +1,2967 @@
+{
+  "term": "2026-fall",
+  "timezone": "America/New_York",
+  "assumptions": [
+    "Choose one section of each required component. Specific registration pairings and cohort restrictions are intentionally ignored for this experiment.",
+    "Credits count once per course, not once per selected component.",
+    "Prerequisite all/any expressions preserve existing structured parser output. Text preserves original wording, including grades and other conditions; text-only requirements still need interpretation.",
+    "Null requirements mean unavailable or unconfirmed, not confirmed absence. Referenced prerequisite courses may be outside this MATH-only export.",
+    "Unknown meeting times are not asynchronous or conflict-free.",
+    "Winter-session sections are excluded. Date ranges and locations are omitted; weekly conflict checking assumes overlapping dates within the regular fall session."
+  ],
+  "courses": [
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 10000",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "6323",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 10100",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5277",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:30",
+              "end": "21:20"
+            }
+          ]
+        },
+        {
+          "id": "5278",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "20:50"
+            }
+          ]
+        },
+        {
+          "id": "5279",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5280",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5281",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5282",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5283",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5284",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:00",
+              "end": "20:50"
+            }
+          ]
+        },
+        {
+          "id": "5285",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5286",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5287",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5288",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5289",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "08:00",
+              "end": "09:50"
+            }
+          ]
+        },
+        {
+          "id": "6040",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "20:50"
+            }
+          ]
+        },
+        {
+          "id": "6041",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "16:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "id": "6042",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "12:00",
+              "end": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "6043",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "id": "6044",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "08:00",
+              "end": "09:50"
+            }
+          ]
+        },
+        {
+          "id": "6045",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:30",
+              "end": "21:20"
+            }
+          ]
+        },
+        {
+          "id": "6046",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "6047",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "id": "6048",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "6049",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "6050",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 10150",
+      "credits": 1,
+      "prerequisites": {
+        "text": "MATH 10100 or MATH 101EN with a grade of C or better. Not credited for students who have previously passed any course number at or above MATH 12400."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4165",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 10200",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5273",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "16:00",
+              "end": "17:15"
+            }
+          ]
+        },
+        {
+          "id": "5274",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "14:30",
+              "end": "15:45"
+            }
+          ]
+        },
+        {
+          "id": "5275",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "13:00",
+              "end": "14:15"
+            }
+          ]
+        },
+        {
+          "id": "5276",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "11:30",
+              "end": "12:45"
+            }
+          ]
+        },
+        {
+          "id": "5971",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        },
+        {
+          "id": "5972",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "14:30",
+              "end": "15:45"
+            }
+          ]
+        },
+        {
+          "id": "5974",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        },
+        {
+          "id": "5975",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:30",
+              "end": "12:45"
+            }
+          ]
+        },
+        {
+          "id": "5976",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:15"
+            }
+          ]
+        },
+        {
+          "id": "7292",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 10400",
+      "credits": 3,
+      "prerequisites": {
+        "text": "Prereq: MATH 5000, MATH 10100/MATH 101EN with a C or better or MATH 11000 or appropriate Hunter Math Placement scores or Math Accuplacer Test (61 - 120). Only open to Childhood Education BA, Macaulay Honors College Childhood Education majors."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "6052",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        },
+        {
+          "id": "6053",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "08:30",
+              "end": "09:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 10500",
+      "credits": 3,
+      "prerequisites": {
+        "text": "MATH 10400 with a C or better. Only open to Childhood Education 1-6 Quest BA and Macaulay Honors College Childhood Education 1-6 Quest BA majors."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "6051",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "16:00",
+              "end": "17:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 12400",
+      "credits": 4,
+      "prerequisites": {
+        "text": "MATH 10100/MATH 101EN with a grade of C or better or the appropriate score on the Hunter Math Placement Exam. Not open to students who have taken MATH 12500 or MATH 12550."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4164",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5394",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 12550",
+      "credits": 4,
+      "prerequisites": {
+        "text": "Math 10100/MATH 101EN with a grade of B- or better OR MATH 10150 with a grade of C or better; or the appropriate score on the Hunter Math Placement Exam. Not open to students who have taken MATH 12500.; Math 10100/MATH 101EN with a grade of B- or better OR MATH 10150 with a grade of C or better; or the appropriate score on the Hunter Math Placement Exam. Not open to students who have taken MATH 12500. Early College Initiative"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture",
+        "recitation"
+      ],
+      "sections": [
+        {
+          "id": "4175",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "12:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "4177",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "4198",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "12:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "4199",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "09:50"
+            }
+          ]
+        },
+        {
+          "id": "4200",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "4202",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "09:00",
+              "end": "09:50"
+            }
+          ]
+        },
+        {
+          "id": "4203",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "18:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "4204",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "18:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "4205",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "19:30",
+              "end": "20:20"
+            }
+          ]
+        },
+        {
+          "id": "4206",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "18:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "4207",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "18:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "4208",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "10:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "4209",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "11:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "id": "4210",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "14:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "4211",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "19:30",
+              "end": "20:20"
+            }
+          ]
+        },
+        {
+          "id": "4212",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "19:50"
+            }
+          ]
+        },
+        {
+          "id": "4213",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "18:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "id": "4214",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "19:30",
+              "end": "20:20"
+            }
+          ]
+        },
+        {
+          "id": "4215",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "14:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "4216",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "12:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "4217",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "13:00",
+              "end": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "4218",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "14:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "4219",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "15:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "4220",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "12:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "4221",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "13:00",
+              "end": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "4222",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "10:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "4223",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "11:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "id": "4224",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "09:00",
+              "end": "09:50"
+            }
+          ]
+        },
+        {
+          "id": "4225",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "10:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "4227",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "12:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "4228",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "14:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5244",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:30",
+              "end": "21:20"
+            }
+          ]
+        },
+        {
+          "id": "5245",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:30",
+              "end": "21:20"
+            }
+          ]
+        },
+        {
+          "id": "5246",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5247",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "id": "5248",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5249",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "07:00",
+              "end": "08:50"
+            }
+          ]
+        },
+        {
+          "id": "5250",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "07:00",
+              "end": "08:50"
+            }
+          ]
+        },
+        {
+          "id": "5251",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "08:00",
+              "end": "09:50"
+            }
+          ]
+        },
+        {
+          "id": "5252",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:30",
+              "end": "21:20"
+            }
+          ]
+        },
+        {
+          "id": "5253",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5254",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5255",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "id": "5256",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:30",
+              "end": "21:20"
+            }
+          ]
+        },
+        {
+          "id": "5257",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:00",
+              "end": "20:50"
+            }
+          ]
+        },
+        {
+          "id": "5258",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5259",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "id": "5260",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "12:00",
+              "end": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "5261",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5262",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5263",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "08:00",
+              "end": "09:50"
+            }
+          ]
+        },
+        {
+          "id": "5264",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5265",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "id": "5266",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5267",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5268",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5269",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5270",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5272",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "07:00",
+              "end": "08:50"
+            }
+          ]
+        },
+        {
+          "id": "5392",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 12600",
+      "credits": 1,
+      "prerequisites": {
+        "text": "MATH 12400 or MATH 12500 or MATH 12550 or appropriate score on placement exam."
+      },
+      "corequisites": null,
+      "required_components": [
+        "laboratory"
+      ],
+      "sections": [
+        {
+          "id": "9227",
+          "type": "laboratory",
+          "session": "Regular Academic Session",
+          "schedule_type": "asynchronous",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 14000",
+      "credits": 1,
+      "prerequisites": {
+        "text": "MATH 12400 or MATH 12500 or MATH 12550 or appropriate score on the Hunter Math Placement Exam. Not credited to students who have previous credit for MATH 15600."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4185",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "4186",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "id": "4187",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5243",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "19:30",
+              "end": "21:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 15000",
+      "credits": 4,
+      "prerequisites": {
+        "text": "Prereq: MATH 12550 with a grade of B? or better or MATH 12400, MATH 12500, or MATH 12550, with a grade of C or better, AND coreq MATH 14000; or appropriate score on Hunter Math Placement Exam.; Prereq: MATH 12550 with a grade of B? or better or MATH 12400, MATH 12500, or MATH 12550, with a grade of C or better, AND coreq MATH 14000; or appropriate score on Hunter Math Placement Exam. Only open to students in the College Now program.; Prereq: MATH 12550 with a grade of B? or better or MATH 12400, MATH 12500, or MATH 12550, with a grade of C or better, AND coreq MATH 14000; or appropriate score on Hunter Math Placement Exam. Early College Initiative; Prereq: MATH 12550 with a grade of B? or better or MATH 12400, MATH 12500, or MATH 12550, with a grade of C or better, AND coreq MATH 14000; or appropriate score on Hunter Math Placement Exam. Only open to Macaulay Honors College Students"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4170",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5230",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5231",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5232",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:30",
+              "end": "21:20"
+            }
+          ]
+        },
+        {
+          "id": "5233",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5234",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5235",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5236",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5237",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "id": "5238",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5239",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5240",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5241",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5242",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "07:00",
+              "end": "08:50"
+            }
+          ]
+        },
+        {
+          "id": "5369",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5370",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            },
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5371",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            },
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 15200",
+      "credits": 4,
+      "prerequisites": {
+        "text": "Prereq: MATH 12550 with a grade of B- or better; or MATH 12400 or MATH 12500 or MATH 12550 with a grade of C or better, AND coreq MATH 14000; or appropriate score on Hunter Math Placement Exam. Not open to students who have taken MATH 15000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4325",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 15400",
+      "credits": 1,
+      "prerequisites": {
+        "text": "MATH 15000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "8930",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "asynchronous",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 15500",
+      "credits": 4,
+      "prerequisites": {
+        "text": "(MATH 15000 with a C or better) or MATH 15100."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5224",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5225",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5226",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5227",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5228",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5229",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "5367",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 15600",
+      "credits": 1,
+      "prerequisites": {
+        "text": "MATH 15000. Prerequisite or"
+      },
+      "corequisites": {
+        "text": "MATH 15500. Math Proficient."
+      },
+      "pre_or_corequisites": {
+        "text": "MATH 15500. Math Proficient."
+      },
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5220",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "id": "5221",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5222",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "id": "5223",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 16000",
+      "credits": 3,
+      "prerequisites": {
+        "text": "MATH 12400 or MATH 12500 or MATH 12550 or appropriate score on placement exam."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5212",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        },
+        {
+          "id": "5213",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        },
+        {
+          "id": "5214",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        },
+        {
+          "id": "5215",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        },
+        {
+          "id": "5216",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "14:30",
+              "end": "15:45"
+            }
+          ]
+        },
+        {
+          "id": "5217",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "14:30",
+              "end": "15:45"
+            }
+          ]
+        },
+        {
+          "id": "5218",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:15"
+            }
+          ]
+        },
+        {
+          "id": "5219",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:30",
+              "end": "12:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 25000",
+      "credits": 4,
+      "prerequisites": {
+        "text": "MATH 15500."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5290",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "5291",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5292",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 25400",
+      "credits": 3,
+      "prerequisites": {
+        "text": "MATH 25000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5361",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:30",
+              "end": "12:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 25500",
+      "credits": 3,
+      "prerequisites": {
+        "text": "MATH 25000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5211",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "16:00",
+              "end": "17:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 26000",
+      "credits": 4,
+      "prerequisites": {
+        "text": "MATH 15500."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5210",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "5360",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 27500",
+      "credits": 3,
+      "prerequisites": {
+        "text": "MATH 15600."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "8589",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 30100",
+      "credits": 3,
+      "prerequisites": {
+        "text": "MATH 25400."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5359",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "16:00",
+              "end": "17:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 31100",
+      "credits": 3,
+      "prerequisites": {
+        "text": "Prereqs: MATH 15600 and MATH 26000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "53355",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 33100",
+      "credits": 3,
+      "prerequisites": {
+        "text": "Prereqs: MATH 15600 and MATH 26000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5209",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "16:00",
+              "end": "17:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 35100",
+      "credits": 3,
+      "prerequisites": {
+        "text": "Prereqs: MATH 15600, MATH 25000 and MATH 26000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "6322",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 37200",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 15000 or PHILO 27500 or MATH 27500 or CSCI 27500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4272",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 38500",
+      "credits": 3,
+      "prerequisites": {
+        "text": "Prereqs: MATH 15600, MATH 25000 and MATH 26000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "9894",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 39100",
+      "credits": 1,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "independent_study"
+      ],
+      "sections": [
+        {
+          "id": "7775",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 39200",
+      "credits": 2,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "independent_study"
+      ],
+      "sections": [
+        {
+          "id": "7774",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2026-fall",
+      "course_id": "MATH 39300",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "independent_study"
+      ],
+      "sections": [
+        {
+          "id": "7772",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "7773",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

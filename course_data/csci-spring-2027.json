@@ -1,0 +1,2186 @@
+{
+  "term": "2027-spring",
+  "timezone": "America/New_York",
+  "assumptions": [
+    "Choose one section of each required component. Specific registration pairings and cohort restrictions are intentionally ignored for this experiment.",
+    "Credits count once per course, not once per selected component.",
+    "Prerequisite all/any expressions preserve existing structured parser output. Text preserves original wording, including grades and other conditions; text-only requirements still need interpretation.",
+    "Null requirements mean unavailable or unconfirmed, not confirmed absence. Referenced prerequisite courses may be outside this CSCI-only export.",
+    "Unknown meeting times are not asynchronous or conflict-free.",
+    "Winter-session sections are excluded. Date ranges and locations are omitted; weekly conflict checking assumes overlapping dates within the regular Spring session."
+  ],
+  "courses": [
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 12100",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "6356",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:15"
+            }
+          ]
+        },
+        {
+          "id": "6359",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "14:30",
+              "end": "15:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 12700",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "lecture",
+        "recitation"
+      ],
+      "sections": [
+        {
+          "id": "3300",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "3301",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "11:00",
+              "end": "12:15"
+            },
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "14:00",
+              "end": "15:15"
+            }
+          ]
+        },
+        {
+          "id": "3302",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "3303",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Sat"
+              ],
+              "start": "10:00",
+              "end": "12:30"
+            }
+          ]
+        },
+        {
+          "id": "3304",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        },
+        {
+          "id": "3305",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        },
+        {
+          "id": "3306",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "3307",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 13200",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4318",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            },
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 13500",
+      "credits": 4,
+      "prerequisites": {
+        "all": [
+          "CSCI 12700",
+          {
+            "any": [
+              "MATH 12400",
+              "MATH 12500",
+              "MATH 12550",
+              "MATH 15000",
+              "MATH 15200",
+              "MATH 15500"
+            ]
+          }
+        ],
+        "text": "CSCI 12700 or equivalent, and; MATH 12400, or MATH 12500, or MATH 12550, or MATH 15000, or MATH 15200, or MATH 15500.; CSCI 12700 or equivalent, and; MATH 12400, or MATH 12500, or MATH 12550, or MATH 15000, or MATH 15200, or MATH 15500. Only open to Daedalus Computer Science Honors Cohort."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture",
+        "recitation"
+      ],
+      "sections": [
+        {
+          "id": "2693",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:15"
+            }
+          ]
+        },
+        {
+          "id": "2694",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:15"
+            }
+          ]
+        },
+        {
+          "id": "2695",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "11:30",
+              "end": "13:20"
+            }
+          ]
+        },
+        {
+          "id": "2696",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Fri"
+              ],
+              "start": "14:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "2697",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "09:30",
+              "end": "11:20"
+            }
+          ]
+        },
+        {
+          "id": "2699",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "2700",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "09:30",
+              "end": "11:20"
+            }
+          ]
+        },
+        {
+          "id": "2701",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Fri"
+              ],
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 15000",
+      "credits": 4,
+      "prerequisites": {
+        "all": [
+          {
+            "any": [
+              "MATH 12400",
+              "MATH 12500",
+              "MATH 12550",
+              "MATH 15000",
+              "MATH 15500"
+            ]
+          }
+        ],
+        "text": "Prerequsite: MATH 12400, MATH 12500, MATH 12550, MATH 15000 or MATH 15500."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture",
+        "recitation"
+      ],
+      "sections": [
+        {
+          "id": "3251",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "14:30",
+              "end": "15:45"
+            }
+          ]
+        },
+        {
+          "id": "3252",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Fri"
+              ],
+              "start": "10:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "id": "3253",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "09:30",
+              "end": "10:20"
+            }
+          ]
+        },
+        {
+          "id": "3254",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Fri"
+              ],
+              "start": "14:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "id": "3256",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Fri"
+              ],
+              "start": "11:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "id": "3257",
+          "type": "recitation",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "10:30",
+              "end": "11:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 16000",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 12700",
+          "CSCI 15000"
+        ],
+        "text": "CSCI 12700 and CSCI 15000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "3199",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "11:30",
+              "end": "12:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 18100",
+      "credits": 1,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "internship"
+      ],
+      "sections": [
+        {
+          "id": "6258",
+          "type": "internship",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 18200",
+      "credits": 2,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "internship"
+      ],
+      "sections": [
+        {
+          "id": "6434",
+          "type": "internship",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 18300",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "internship"
+      ],
+      "sections": [
+        {
+          "id": "6731",
+          "type": "internship",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "6739",
+          "type": "internship",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 22700",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 12700"
+        ],
+        "text": "Prereq: CSCI 12700"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4729",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Fri"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        },
+        {
+          "id": "52564",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Sat"
+              ],
+              "start": "10:00",
+              "end": "12:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 23200",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          {
+            "any": [
+              "CSCI 12700",
+              "CSCI 13200"
+            ]
+          }
+        ],
+        "text": "CSCI 12700 or CSCI 13200."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "1481",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        },
+        {
+          "id": "3936",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 23500",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 13500 and CSCI 15000 and MATH 15000, all with a C or better.; CSCI 13500 and CSCI 15000 and MATH 15000, all with a C or better. Only open to Daedalus Computer Science Honors Cohort."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "3567",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        },
+        {
+          "id": "3568",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 26000",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 13500",
+          "MATH 15000",
+          {
+            "any": [
+              "CSCI 16000",
+              "CSCI 24500"
+            ]
+          }
+        ],
+        "text": "CSCI 13500 and (CSCI 16000 or CSCI 24500) and MATH 15000 all with a grade of D or better."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "2757",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 26500",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "MATH 15000",
+          {
+            "any": [
+              "CSCI 16000",
+              "CSCI 14500"
+            ]
+          }
+        ],
+        "text": "(CSCI 16000 or CSCI 14500) and MATH 15000, all with a C or better. Math, Reading and Writing Proficient."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "3522",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 27500",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "37711",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        },
+        {
+          "id": "5443",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "14:30",
+              "end": "15:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 33500",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 23500",
+          "MATH 15500"
+        ],
+        "text": "CSCI 23500 and MATH 15500, all with a C or better."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "6778",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 34000",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 23500",
+          "MATH 15500",
+          {
+            "any": [
+              "CSCI 24500",
+              "CSCI 26000"
+            ]
+          },
+          {
+            "any": [
+              "STAT 11300",
+              "STAT 21300"
+            ]
+          }
+        ],
+        "text": "(CSCI 24500 or CSCI 26000) and CSCI 23500 and (STAT 11300 or STAT 21300) and MATH 155."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "3864",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 35700",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 12700 and STAT 21300 or STAT 21400 or PSYCH 24800, and CSCI 22700 or CSCI 23500."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "14471",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 36500",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 26500 with a C or better. Math, Reading and Writing Proficient."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4148",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 37100",
+      "credits": 3,
+      "prerequisites": {
+        "text": "PHILO 27500 or MATH 27500 or CSCI 27500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "22548",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39100",
+      "credits": 1,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "independent_study"
+      ],
+      "sections": [
+        {
+          "id": "2078",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39200",
+      "credits": 2,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "independent_study"
+      ],
+      "sections": [
+        {
+          "id": "6518",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39300",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "independent_study"
+      ],
+      "sections": [
+        {
+          "id": "1276",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "1277",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "1278",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "1279",
+          "type": "independent_study",
+          "session": "Regular Academic Session",
+          "schedule_type": "unknown",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39528",
+      "credits": 3,
+      "prerequisites": {
+        "text": "Prereq: CSCI 12700 and (MATH 15000 or MATH 16000)."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "14472",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "10:00",
+              "end": "12:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39529",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 23500",
+          "MATH 15000"
+        ],
+        "text": "CSCI 23500 and MATH 15000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "12869",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "20:00",
+              "end": "21:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39530",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          {
+            "any": [
+              "CSCI 22700",
+              "CSCI 23500"
+            ]
+          }
+        ],
+        "text": "Prereq: CSCI 22700 or CSCI 23500."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4502",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "11:30",
+              "end": "12:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39532",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 33500"
+        ],
+        "text": "CSCI 33500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4516",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "11:30",
+              "end": "12:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39534",
+      "credits": 3,
+      "prerequisites": {
+        "text": "Prereqs: CSCI 23500, CSCI-26000 and MATH 15000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4680",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            },
+            {
+              "days": [
+                "Tue"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39543",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 23500",
+          "MATH 16000",
+          "STAT 21300"
+        ],
+        "text": "CSCI 23500, MATH 16000 and STAT 21300."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "12867",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "13:00",
+              "end": "14:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39548",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 23500"
+        ],
+        "text": "CSCI 23500."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5085",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        },
+        {
+          "id": "5086",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39575",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 23500 and MATH 15000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "12868",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 39579",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 23500",
+          {
+            "any": [
+              "MATH 16000",
+              "MATH 26000"
+            ]
+          }
+        ],
+        "text": "CSCI 23500 and (MATH 16000 or MATH 26000)."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "2158",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 41500",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 33500",
+          "CSCI 34000"
+        ],
+        "text": "CSCI 33500 and 34000 all with a C or better."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "2251",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "16:00",
+              "end": "17:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 43500",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 33500"
+        ],
+        "text": "CSCI 335 w/ C or better."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "3613",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Sat"
+              ],
+              "start": "12:30",
+              "end": "15:00"
+            }
+          ]
+        },
+        {
+          "id": "3615",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "19:00",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 46000",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 26500 and CSCI 33500, both with a C or better."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "37551",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "14:30",
+              "end": "15:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49311",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4510",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49348",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 23500 and MATH 15000."
+      },
+      "corequisites": null,
+      "required_components": [
+        "seminar"
+      ],
+      "sections": [
+        {
+          "id": "14474",
+          "type": "seminar",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "17:30",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49354",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 33500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "6903",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon"
+              ],
+              "start": "17:30",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49355",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 33500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "2733",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49365",
+      "credits": 3,
+      "prerequisites": {
+        "text": "Csci 235 and Math 160 with a grade of C or better"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "37552",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "16:00",
+              "end": "17:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49369",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 33500 and MATH 15000 and MATH 16000 and (STAT 11300 or STAT 21300), all with a C or better."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "2259",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49376",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 33500"
+        ],
+        "text": "CSCI 33500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "5322",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Fri"
+              ],
+              "start": "17:00",
+              "end": "19:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49381",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 33500"
+        ],
+        "text": "CSCI 33500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4847",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "13:00",
+              "end": "14:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49383",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 33500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "12872",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "18:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49386",
+      "credits": 3,
+      "prerequisites": {
+        "text": "CSCI 33500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "12873",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "14:30",
+              "end": "15:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49391",
+      "credits": 3,
+      "prerequisites": {
+        "all": [
+          "CSCI 33500"
+        ],
+        "text": "CSCI 33500"
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "4632",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "20:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49394",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "seminar"
+      ],
+      "sections": [
+        {
+          "id": "42612",
+          "type": "seminar",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "10:00",
+              "end": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49600",
+      "credits": 1,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "research"
+      ],
+      "sections": [
+        {
+          "id": "1973",
+          "type": "research",
+          "session": "Regular Academic Session",
+          "schedule_type": "asynchronous",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49700",
+      "credits": 2,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "research"
+      ],
+      "sections": [
+        {
+          "id": "6140",
+          "type": "research",
+          "session": "Regular Academic Session",
+          "schedule_type": "asynchronous",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49800",
+      "credits": 3,
+      "prerequisites": null,
+      "corequisites": null,
+      "required_components": [
+        "research"
+      ],
+      "sections": [
+        {
+          "id": "4139",
+          "type": "research",
+          "session": "Regular Academic Session",
+          "schedule_type": "asynchronous",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "4140",
+          "type": "research",
+          "session": "Regular Academic Session",
+          "schedule_type": "asynchronous",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "4141",
+          "type": "research",
+          "session": "Regular Academic Session",
+          "schedule_type": "asynchronous",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "4142",
+          "type": "research",
+          "session": "Regular Academic Session",
+          "schedule_type": "asynchronous",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        },
+        {
+          "id": "4143",
+          "type": "research",
+          "session": "Regular Academic Session",
+          "schedule_type": "asynchronous",
+          "meetings": [
+            {
+              "days": [],
+              "start": null,
+              "end": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term": "2027-spring",
+      "course_id": "CSCI 49900",
+      "credits": 4,
+      "prerequisites": {
+        "all": [
+          "CSCI 33500",
+          "CSCI 34000"
+        ],
+        "text": "CSCI 33500 and CSCI 34000. Only open to Computer Sci and MHC Computer Sci majors."
+      },
+      "corequisites": null,
+      "required_components": [
+        "lecture"
+      ],
+      "sections": [
+        {
+          "id": "14469",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "1818",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "12:00",
+              "end": "13:50"
+            }
+          ]
+        },
+        {
+          "id": "1819",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Tue",
+                "Thu"
+              ],
+              "start": "17:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "id": "1821",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "14:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "1822",
+          "type": "lecture",
+          "session": "Regular Academic Session",
+          "schedule_type": "scheduled",
+          "meetings": [
+            {
+              "days": [
+                "Mon",
+                "Wed"
+              ],
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
