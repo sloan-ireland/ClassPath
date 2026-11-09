@@ -101,7 +101,10 @@ if __name__ == "__main__":
     )
 
     for result in results:
+        course = result["course"]
+
         print(
-            result["course"]["course_id"],
-            round(result["score"], 3),
+            f"{course['course_id']} | "
+            f"{course['title']} | "
+            f"Similarity: {result['score']:.3f}"
         )

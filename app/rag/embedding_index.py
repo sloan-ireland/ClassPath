@@ -18,16 +18,29 @@ EMBEDDING_MODEL = "nomic-embed-text"
 INDEX_PATH = Path(__file__).resolve().parent / "course_embeddings.json"
 
 
+def course_to_document(course: dict) -> str:
+    """Convert a course into text useful for semantic search."""
+
+    return (
+        f"Course ID: {course['course_id']}\n"
+        f"Title: {course.get('title') or 'Unknown'}\n"
+        f"Term: {course['term_id']}\n"
+        f"Prerequisites: {course.get('prerequisites') or 'None'}\n"
+        f"Corequisites: {course.get('corequisites') or 'None'}"
+    )
+
+
 def build_embedding_index():
     courses = load_courses()
 
-    # Convert each course into searchable text.
+    if not courses:
+        raise ValueError("No courses returned from Supabase.")
+
     documents = [
-        json.dumps(course, ensure_ascii=False)
+        course_to_document(course)
         for course in courses
     ]
 
-    # Ask the embedding model to convert the text into vectors.
     response = requests.post(
         OLLAMA_URL,
         json={
@@ -43,7 +56,6 @@ def build_embedding_index():
     if len(embeddings) != len(courses):
         raise ValueError("Embedding count does not match course count.")
 
-    # Save the course records and their embeddings together.
     index = {
         "model": EMBEDDING_MODEL,
         "courses": courses,
@@ -51,7 +63,7 @@ def build_embedding_index():
     }
 
     INDEX_PATH.write_text(
-        json.dumps(index),
+        json.dumps(index, ensure_ascii=False),
         encoding="utf-8",
     )
 

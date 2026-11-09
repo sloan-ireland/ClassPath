@@ -1,34 +1,46 @@
 
-import json
-from pathlib import Path
+import os
+
+from dotenv import load_dotenv
+from supabase import create_client
 
 
-# Locate the course_data folder from the project root.
-COURSE_DATA_DIR = Path(__file__).resolve().parents[2] / "course_data"
+load_dotenv()
 
 
 def load_courses() -> list[dict]:
+    client = create_client(
+        os.environ["SUPABASE_URL"],
+        os.environ["SUPABASE_KEY"],
+    )
+
     courses = []
+    page_size = 500
+    offset = 0
 
-    # Read all six course dataset files.
-    for file_path in sorted(COURSE_DATA_DIR.glob("*.json")):
-        with open(file_path, "r", encoding="utf-8") as file:
-            data = json.load(file)
+    # Supabase may limit how many rows one request returns,
+    # so retrieve courses in batches.
+    while True:
+        response = (
+            client.table("courses")
+            .select("*")
+            .order("term_id")
+            .order("course_id")
+            .range(offset, offset + page_size - 1)
+            .execute()
+        )
 
-        # Support datasets containing either a list of courses
-        # or an object with a "courses" list.
-        if isinstance(data, list):
-            records = data
-        elif isinstance(data, dict):
-            records = data.get("courses", [])
-        else:
-            raise ValueError(f"Unexpected JSON structure: {file_path}")
-
-        for course in records:
-            if not isinstance(course, dict):
-                raise ValueError(f"Invalid course record: {file_path}")
-
+        batch = response.data
+        for course in batch:
+            course["term"] = course["term_id"]
             courses.append(course)
+
+        if len(batch) < page_size:
+            break
+
+        offset += page_size
+
+    print(f"Loaded {len(courses)} courses from Supabase.")
 
     return courses
 
@@ -36,7 +48,9 @@ def load_courses() -> list[dict]:
 if __name__ == "__main__":
     courses = load_courses()
 
-    print(f"Loaded {len(courses)} courses")
-
     for course in courses[:5]:
-        print(course.get("course_id"))
+        print(
+            course["course_id"],
+            course["title"],
+            course["term_id"],
+        )
