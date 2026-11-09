@@ -1,0 +1,37 @@
+# Python virtual environments
+.venv/
+.venv-win/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# VS Code local settings
+.vscode/
+
+# Python testing and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local model files
+*.gguf
+*.safetensors
+
+app/rag/course_embeddings.json
