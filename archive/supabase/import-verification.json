@@ -1,0 +1,33 @@
+{
+  "project_id": "kxjppqyawhfjclbidtwc",
+  "source_manifest": "import/manifest.json",
+  "migration": "create_classpath_scheduling",
+  "all_six_files_imported": true,
+  "exact_source_comparison": {
+    "terms": { "rows": 2, "exact_match": true },
+    "courses": { "rows": 187, "exact_match": true },
+    "sections": { "rows": 619, "exact_match": true },
+    "meetings": { "rows": 627, "exact_match": true }
+  },
+  "distinct_courses": 114,
+  "sections_with_dependency_overrides": 114,
+  "meeting_states": { "scheduled": 524, "asynchronous": 52, "unknown": 51 },
+  "row_level_security_enabled_on_all_tables": true,
+  "anon_and_authenticated_table_access": false,
+  "service_role_backend_access": true,
+  "advisors": {
+    "security": {
+      "level": "INFO",
+      "name": "rls_enabled_no_policy",
+      "explanation": "Intentional backend-only access: browser roles have no grants and no policies.",
+      "reference": "https://supabase.com/docs/guides/database/database-linter?lint=0008_rls_enabled_no_policy"
+    },
+    "performance": {
+      "level": "INFO",
+      "name": "unused_index",
+      "index": "sections_course_idx",
+      "explanation": "Retained to support the course foreign key and future course/section lookups on this newly imported database.",
+      "reference": "https://supabase.com/docs/guides/database/database-linter?lint=0005_unused_index"
+    }
+  }
+}

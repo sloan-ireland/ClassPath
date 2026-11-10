@@ -1,0 +1,148 @@
+{
+  "project_id": "kxjppqyawhfjclbidtwc",
+  "migration": "20261108214423_add_required_courses_and_electives",
+  "verified_at": "2026-11-08 21:46:06 UTC",
+  "exact_rows": [
+    {
+      "table_name": "required_courses",
+      "actual_rows": 14,
+      "missing_rows": 0,
+      "extra_rows": 0
+    },
+    {
+      "table_name": "elective_rules",
+      "actual_rows": 1,
+      "missing_rows": 0,
+      "extra_rows": 0
+    },
+    {
+      "table_name": "elective_exclusions",
+      "actual_rows": 10,
+      "missing_rows": 0,
+      "extra_rows": 0
+    },
+    {
+      "table_name": "elective_credit_caps",
+      "actual_rows": 2,
+      "missing_rows": 0,
+      "extra_rows": 0
+    },
+    {
+      "table_name": "elective_cap_courses",
+      "actual_rows": 6,
+      "missing_rows": 0,
+      "extra_rows": 0
+    }
+  ],
+  "elective_checks": [
+    {
+      "name": "above_threshold",
+      "expected_credits": 3,
+      "actual_credits": "3",
+      "passed": true,
+      "remaining_credits": "9.00"
+    },
+    {
+      "name": "below_threshold",
+      "expected_credits": 0,
+      "actual_credits": "0",
+      "passed": true,
+      "remaining_credits": "12.00"
+    },
+    {
+      "name": "both_caps_reach_target",
+      "expected_credits": 12,
+      "actual_credits": "12.00",
+      "passed": true,
+      "remaining_credits": "0.00"
+    },
+    {
+      "name": "empty",
+      "expected_credits": 0,
+      "actual_credits": "0",
+      "passed": true,
+      "remaining_credits": "12.00"
+    },
+    {
+      "name": "excluded_above_threshold",
+      "expected_credits": 0,
+      "actual_credits": "0",
+      "passed": true,
+      "remaining_credits": "12.00"
+    },
+    {
+      "name": "exclusive_boundary",
+      "expected_credits": 0,
+      "actual_credits": "0",
+      "passed": true,
+      "remaining_credits": "12.00"
+    },
+    {
+      "name": "lower_combined_cap",
+      "expected_credits": 3,
+      "actual_credits": "3.00",
+      "passed": true,
+      "remaining_credits": "9.00"
+    },
+    {
+      "name": "ordinary_elective",
+      "expected_credits": 3,
+      "actual_credits": "3",
+      "passed": true,
+      "remaining_credits": "9.00"
+    },
+    {
+      "name": "required_course_not_elective",
+      "expected_credits": 0,
+      "actual_credits": "0",
+      "passed": true,
+      "remaining_credits": "12.00"
+    },
+    {
+      "name": "uncapped_target",
+      "expected_credits": 12,
+      "actual_credits": "12",
+      "passed": true,
+      "remaining_credits": "0.00"
+    },
+    {
+      "name": "upper_combined_cap",
+      "expected_credits": 9,
+      "actual_credits": "9.00",
+      "passed": true,
+      "remaining_credits": "3.00"
+    },
+    {
+      "name": "wrong_subject",
+      "expected_credits": 0,
+      "actual_credits": "0",
+      "passed": true,
+      "remaining_credits": "12.00"
+    }
+  ],
+  "existing_scheduling_unchanged": true,
+  "scheduling_fingerprints": [
+    {
+      "table_name": "terms",
+      "rows": 2,
+      "content_md5": "33eb1b4e439b911f03f033470b89e417"
+    },
+    {
+      "table_name": "courses",
+      "rows": 187,
+      "content_md5": "16483503e00f0b9087a9a0b1f1f2943a"
+    },
+    {
+      "table_name": "sections",
+      "rows": 619,
+      "content_md5": "c27f6b92908d5f0d9931dd7170166687"
+    },
+    {
+      "table_name": "meetings",
+      "rows": 627,
+      "content_md5": "9ec49d7a85046b1fbf2d7f75d0f64ec1"
+    }
+  ],
+  "security": "RLS enabled; backend-only access. Informational no-policy notices are expected.",
+  "security_reference": "https://supabase.com/docs/guides/database/database-linter?lint=0008_rls_enabled_no_policy"
+}

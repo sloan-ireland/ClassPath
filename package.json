@@ -1,0 +1,13 @@
+{
+  "name": "classpath-ingestion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hunter College planner JSON scraping and offline SQL preparation",
+  "scripts": {
+    "scrape": "node scripts/scraper/scrape.js",
+    "prepare:sql": "node scripts/prepare-supabase.cjs"
+  },
+  "dependencies": {
+    "playwright": "1.59.1"
+  }
+}

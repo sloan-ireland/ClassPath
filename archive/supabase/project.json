@@ -1,0 +1,11 @@
+{
+  "name": "ClassPath",
+  "project_id": "kxjppqyawhfjclbidtwc",
+  "organization": "HunterHacks2026",
+  "organization_id": "upvryezzlvnimnnkdacl",
+  "region": "us-east-1",
+  "api_url": "https://kxjppqyawhfjclbidtwc.supabase.co",
+  "dashboard_url": "https://supabase.com/dashboard/project/kxjppqyawhfjclbidtwc",
+  "quoted_monthly_project_cost_usd": 0,
+  "access": "dashboard/admin and trusted backend only"
+}

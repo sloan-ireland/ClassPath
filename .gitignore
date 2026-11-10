@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+supabase/import/
+*.json.tmp
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/

@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "source": "csci-fall-2026.json",
+      "sql": "csci-fall-2026.sql",
+      "sha256": "e9cef089635a5f0b6838f1cd719488379a747f51fb8d104b041007eb37b0db3e",
+      "course_offerings": 51,
+      "sections": 100,
+      "meetings": 103
+    },
+    {
+      "source": "csci-spring-2027.json",
+      "sql": "csci-spring-2027.sql",
+      "sha256": "5f1e1ab42828ca7e8d7bb098bb3b7c1e13fd07b2ecdeb91b155536ede54fcc9f",
+      "course_offerings": 51,
+      "sections": 89,
+      "meetings": 92
+    },
+    {
+      "source": "math-fall-2026.json",
+      "sql": "math-fall-2026.sql",
+      "sha256": "4832baeb88190fc0f9fe84f661ca53833e6cae67e52b99c2dfbfa1fb6e27b03c",
+      "course_offerings": 30,
+      "sections": 175,
+      "meetings": 177
+    },
+    {
+      "source": "math-spring-2027.json",
+      "sql": "math-spring-2027.sql",
+      "sha256": "938886c0a2c8f89ab667f9ff6e319370b1633f8ba7d4db466309b8a3493a4b8a",
+      "course_offerings": 31,
+      "sections": 133,
+      "meetings": 133
+    },
+    {
+      "source": "stat-fall-2026.json",
+      "sql": "stat-fall-2026.sql",
+      "sha256": "ac5bd9a285bd1d02059784270cd0908738d69313f53bb7948551793f60f454d4",
+      "course_offerings": 11,
+      "sections": 64,
+      "meetings": 64
+    },
+    {
+      "source": "stat-spring-2027.json",
+      "sql": "stat-spring-2027.sql",
+      "sha256": "d91d8a9c6f08445f9d264fc522482a2ab2dc39162bbc169bd96d46b8f15c544c",
+      "course_offerings": 13,
+      "sections": 58,
+      "meetings": 58
+    }
+  ],
+  "counts": {
+    "terms": 2,
+    "course_offerings": 187,
+    "sections": 619,
+    "meetings": 627
+  }
+}
