@@ -62,6 +62,16 @@ def test_missing_prereq_blocks_required_course():
     assert results == [] and "CSCI 33500" in report["blocked"]
 
 
+def test_report_lists_every_blocked_required_course():
+    courses = load_courses("2026-fall")
+    # Missing MATH 15000 (needed by both) and CSCI 16000 (needed by 26000)
+    results, report = solve(courses, required=["CSCI 23500", "CSCI 26000"],
+                            completed=["CSCI 13500", "CSCI 15000"],
+                            min_credits=0, max_credits=18)
+    assert results == []
+    assert {"CSCI 23500", "CSCI 26000"} <= set(report["blocked"])
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):

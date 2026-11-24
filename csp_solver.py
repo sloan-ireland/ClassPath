@@ -246,14 +246,10 @@ def solve(courses, required, optional=(), completed=(), min_credits=12,
         cid = normalize_course_id(raw_id)
         if cid not in courses:
             report["blocked"][cid] = "not offered this term"
-            if raw_id in required:
-                return [], report
             continue
         status, msg = eligibility(courses[cid], completed)
         if status == "blocked":
             report["blocked"][cid] = msg
-            if raw_id in required:
-                return [], report          # can't take a required course -> no schedule
             continue
         opts = build_domain(cid, courses[cid], allow_unknown_times)
         if status == "unknown":
@@ -262,12 +258,16 @@ def solve(courses, required, optional=(), completed=(), min_credits=12,
                 o.warnings.append(f"{cid}: {msg}")
         if not opts:
             report["blocked"][cid] = "no sections with known meeting times"
-            if raw_id in required:
-                return [], report
             continue
         if raw_id in optional:
             opts = opts + [SKIP]           # optional courses may be left out
         domains[cid] = opts
+
+    # If ANY required course can't be taken, there is no valid schedule.
+    # We check this after the loop (not inside it) so the report lists
+    # every blocked course at once, not just the first one we hit.
+    if any(normalize_course_id(r) in report["blocked"] for r in required):
+        return [], report
 
     # Value ordering: try options that look nicest on their own first.
     for cid in domains:
