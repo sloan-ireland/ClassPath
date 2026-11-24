@@ -66,7 +66,9 @@ the student explicitly requests them.
 - Never use "Fall", "Spring", or semester names as times.
 - Extract scheduling preferences only from the student's request.
 """
-
+# fields that have defaults (required/optional/completed).
+OUTPUT_SCHEMA = PlanningRequest.model_json_schema()
+OUTPUT_SCHEMA["required"] = list(OUTPUT_SCHEMA["properties"])
 
 def extract_constraints(student_prompt: str) -> PlanningRequest:
     # Retrieve course information relevant to the student's request.
@@ -79,7 +81,8 @@ def extract_constraints(student_prompt: str) -> PlanningRequest:
                 {"role": "user", "content": student_prompt}
             ],
             "stream": False,
-            "format": PlanningRequest.model_json_schema(),
+            "think": False,
+            "format": OUTPUT_SCHEMA,
             "options": {"temperature": 0},
         },
         timeout=120,
